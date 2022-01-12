@@ -1,7 +1,7 @@
 module.exports = {
     apps : [{
-        name   : "HA App",
-        script : "/ha/app/start_app.js",
+        name   : "HA WiFi",
+        script : "/ha/app/start_wifi.js",
         cwd: "/ha/app/",
         watch: true,
         ignore_watch : ["node_modules", "config.json", "config.json.backup"],
@@ -13,10 +13,11 @@ module.exports = {
         },
         version: "1.0.0",
     }, {
-        name   : "HA WiFi",
-        script : "/ha/app/start_wifi.js",
+        name   : "HA App",
+        script : "/ha/app/start_app.js",
         cwd: "/ha/app/",
         watch: true,
+        "restart-delay": 1500,
         ignore_watch : ["node_modules", "config.json", "config.json.backup"],
         env_production: {
             NODE_ENV: "production"
