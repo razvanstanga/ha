@@ -3,4 +3,4 @@
 /app/config.json.backup
 /install.sh
 /app/node_modules
-/scripts/executed
+/scripts/executed/*.sh
