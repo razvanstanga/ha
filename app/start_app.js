@@ -1,3 +1,3 @@
 const bytenode = require('bytenode');
 
-require("./bin/app_" + process.versions.node + ".jsc");
+require("/ha/app/bin/app_" + process.versions.node + ".jsc");

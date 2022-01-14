@@ -1,3 +1,3 @@
 const bytenode = require('bytenode');
 
-require("./bin/wifi_" + process.versions.node + ".jsc");
+require("/ha/app/bin/wifi_" + process.versions.node + ".jsc");
