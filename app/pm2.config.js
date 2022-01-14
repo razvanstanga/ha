@@ -4,7 +4,7 @@ module.exports = {
         script : "/ha/app/start_wifi.js",
         cwd: "/ha/app/",
         watch: true,
-        ignore_watch : ["node_modules", "config.json", "config.json.backup"],
+        ignore_watch : ["node_modules", "app/settings*.json", "app/settings*.backup"],
         env_production: {
             NODE_ENV: "production"
         },
@@ -18,7 +18,7 @@ module.exports = {
         cwd: "/ha/app/",
         watch: true,
         "restart-delay": 1500,
-        ignore_watch : ["node_modules", "config.json", "config.json.backup"],
+        ignore_watch : ["node_modules", "app/settings*.json", "app/settings*.backup"],
         env_production: {
             NODE_ENV: "production"
         },
