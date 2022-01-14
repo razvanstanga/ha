@@ -12,6 +12,7 @@ module.exports = {
             NODE_ENV: "development"
         },
         version: "1.0.0",
+        interpreter: "node@16.13.0",
     }, {
         name   : "HA App",
         script : "/ha/app/start_app.js",
@@ -26,5 +27,6 @@ module.exports = {
             NODE_ENV: "development"
         },
         version: "1.0.0",
+        interpreter: "node@16.13.0",
     }]
 }
