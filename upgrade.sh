@@ -1,7 +1,5 @@
 #!/bin/sh
 
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
 git fetch origin
 git reset --hard origin/master
 git checkout master
